@@ -1,0 +1,27 @@
+{
+  "name": "nixbot",
+  "version": "0.1.0",
+  "description": "Twitter *nix command line bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/underscorenico/nixbot.git"
+  },
+  "keywords": [
+    "Twitter",
+    "bot"
+  ],
+  "author": "Nicolas Vinuesa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/underscorenico/nixbot/issues"
+  },
+  "homepage": "https://github.com/underscorenico/nixbot#readme",
+  "dependencies": {
+    "twit": "^2.2.5"
+  }
+}
